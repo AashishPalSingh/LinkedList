@@ -40,6 +40,5 @@ var splitListToParts = function(head, k) {
         head.next = null;
         head = tmp;
     }
-
     return result;
 };
